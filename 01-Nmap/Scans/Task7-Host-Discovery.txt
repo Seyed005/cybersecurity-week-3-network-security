@@ -1,0 +1,12 @@
+Nmap Host Discovery Evidence
+Target network: 192.168.56.0/24
+Command: sudo nmap -sn 192.168.56.0/24
+
+Earlier verified lab result:
+3 hosts up:
+192.168.56.1
+192.168.56.100
+192.168.56.101
+
+Note: A later re-run returned 0 hosts up, so this file preserves the earlier
+verified result and is explicitly marked as reconstructed evidence.

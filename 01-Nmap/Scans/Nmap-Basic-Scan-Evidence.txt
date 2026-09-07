@@ -1,0 +1,31 @@
+Week 3 – Nmap Basic Scan Evidence
+Target: 192.168.56.101 (authorized Metasploitable 2 lab)
+Command: nmap 192.168.56.101
+
+Host is up.
+23 open TCP ports were observed:
+21 ftp
+22 ssh
+23 telnet
+25 smtp
+53 domain
+80 http
+111 rpcbind
+139 netbios-ssn
+445 microsoft-ds
+512 exec
+513 login
+514 shell
+1099 rmiregistry
+1524 ingreslock
+2049 nfs
+2121 ccproxy-ftp
+3306 mysql
+5432 postgresql
+5900 vnc
+6000 X11
+6667 irc
+8009 ajp13
+8180 unknown
+
+Evidence source: terminal screenshot captured during the lab.

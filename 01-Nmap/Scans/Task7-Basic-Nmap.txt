@@ -1,0 +1,30 @@
+Nmap Basic Scan Evidence
+Target: 192.168.56.101
+
+Earlier verified result: 23 open TCP ports.
+
+21 ftp
+22 ssh
+23 telnet
+25 smtp
+53 domain
+80 http
+111 rpcbind
+139 netbios-ssn
+445 microsoft-ds
+512 exec
+513 login
+514 shell
+1099 rmiregistry
+1524 ingreslock/bindshell
+2049 nfs
+2121 ccproxy-ftp
+3306 mysql
+5432 postgresql
+5900 vnc
+6000 X11
+6667 irc
+8009 ajp13
+8180 http
+
+Note: Reconstructed from captured lab output; not a raw Nmap output file.

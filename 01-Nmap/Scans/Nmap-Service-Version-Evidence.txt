@@ -1,0 +1,23 @@
+Week 3 – Nmap Service/Version Scan Evidence
+Target: 192.168.56.101
+Command: nmap -sV 192.168.56.101
+
+Selected identified services:
+21/tcp vsftpd 2.3.4
+22/tcp OpenSSH 4.7p1 Debian
+25/tcp Postfix smtpd
+53/tcp BIND 9.4.2
+80/tcp Apache httpd 2.2.8
+139/445 tcp Samba 3.X–4.X
+1099/tcp Java RMI GNU Classpath grmiregistry
+1524/tcp Metasploitable root shell
+2121/tcp ProFTPD 1.3.1
+3306/tcp MySQL 5.0.51a-3ubuntu5
+5432/tcp PostgreSQL 8.3.x
+5900/tcp VNC protocol 3.3
+6667/tcp UnrealIRCd
+8009/tcp AJP13
+8180/tcp Apache Tomcat/Coyote JSP engine 1.1
+
+Host: Metasploitable.localdomain, Unix/Linux.
+Evidence source: terminal results captured during the lab.

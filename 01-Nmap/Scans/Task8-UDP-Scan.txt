@@ -1,0 +1,17 @@
+Nmap UDP Top-20 Scan Evidence
+Target: 192.168.56.101
+Command: sudo nmap -sU --top-ports 20 192.168.56.101
+
+Observed:
+53/udp     open           DNS
+67/udp     open|filtered  DHCP
+69/udp     open|filtered  TFTP
+137/udp    open           NetBIOS-NS
+138/udp    open|filtered  NetBIOS-DGM
+139/udp    open|filtered  NetBIOS-SSN
+445/udp    open|filtered  Microsoft-DS
+520/udp    open|filtered  route
+631/udp    open|filtered  IPP
+49152/udp  open|filtered  unknown
+
+Note: Reconstructed from captured lab output; not a raw Nmap output file.

@@ -1,0 +1,10 @@
+Nmap OS Detection Evidence
+Target: 192.168.56.101
+Command: sudo nmap -O 192.168.56.101
+
+Observed:
+Linux 2.6.x
+OS details: Linux 2.6.9 - 2.6.33
+Network distance: 1 hop
+
+Note: Reconstructed from captured lab output; not a raw Nmap output file.
