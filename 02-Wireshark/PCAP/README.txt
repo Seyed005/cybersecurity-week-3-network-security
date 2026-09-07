@@ -1,11 +1,9 @@
-Wireshark PCAP Evidence
+PCAP Evidence Note
 
-The original PCAP files were captured during the authorized Metasploitable 2 lab.
+The original captures were created on the authorized Kali/Metasploitable lab:
+- /home/titan/wireshark_report.pcapng
+- /home/titan/wireshark_report_1.pcapng
+- Week-3 copy: Task10-Nmap-Wireshark.pcapng
 
-Files:
-- wireshark_report.pcapng
-- wireshark_report_1.pcapng
-- Task10-Nmap-Wireshark.pcapng
-
-The original PCAP binaries are retained on the Kali lab machine.
-Screenshots and analysis evidence are included in the Screenshots folder.
+The screenshots in ../Screenshots/ document the captured traffic and analysis.
+No synthetic PCAP binary has been created in this submission package.
